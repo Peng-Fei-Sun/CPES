@@ -1,0 +1,28 @@
+name: CPES
+
+dependencies:
+  - python=3.9
+
+  - torch==2.1.2+cu121
+  - torchvision==0.16.2+cu121
+  - torchaudio==2.1.2+cu121
+
+  - torch-geometric==2.6.1
+  - pyg-lib==0.4.0+pt21cu121
+  - torch-scatter==2.1.2+pt21cu121
+  - torch-sparse==0.6.18+pt21cu121
+  - torch-cluster==1.6.3+pt21cu121
+  - torch-spline-conv==1.2.2+pt21cu121
+
+  - numpy=1.26.4
+  - pandas=2.3.1
+  - scipy=1.13.1
+  - matplotlib=3.9.4
+
+  - rdkit=2022.09.3
+  - openbabel=3.1.1
+  - pymol-open-source=2.5.0
+
+  - tqdm==4.67.3
+  - networkx==3.2.1
+  - psutil==7.2.2
