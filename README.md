@@ -1,6 +1,6 @@
-# CPES: Curvature-Informed Potential Energy Surface
+# CCSNet: Connectivity-Based Curvature Spectrum
 
-Official implementation of CPES: Curvature-Informed Potential Energy Surface for protein-ligand binding affinity prediction.
+Official implementation of CCSNet: Connectivity-Based Curvature Spectrum for Protein–Ligand Binding Affinity Prediction.
 
 ---
 
@@ -10,7 +10,7 @@ Create the conda environment using:
 
 ```bash
 conda env create -f environment.yml
-conda activate CPES
+conda activate CCSNet
 ```
 
 ---
@@ -40,7 +40,7 @@ python processdata.py
 
 ## Step3: Train and Evaluate the Model
 
-Train and evaluate the CPES model:
+Train and evaluate the CCSNet model:
 
 ```bash
 python train.py
